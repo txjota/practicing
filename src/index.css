@@ -1,0 +1,118 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header h1 {
+  color: #187980;
+  text-align: center;
+}
+
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #187980;
+  border-radius: 30px;
+}
+
+.card-title {
+  padding-bottom: 20px;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #187980;
+
+}
+
+.card-1 {
+
+  .card-1 {
+    flex: 1;
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 300px;
+    text-align: center;
+    background-color: rgb(231, 255, 249);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+
+}
+
+.modal-image {
+  padding: 10px;
+  border-radius: 20px 120px 20px 120px;
+
+}
+
+.modal-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 500px;
+}
+
+.modal-style p {
+  text-align: center;
+}
+
+
+.modal.card {
+  background-color: blue;
+  justify-content: center;
+}
+
+.icon-back {
+  font-size: 28px;
+}
+
+.card-img-top {
+  border-radius: 35%;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 380px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.close-button:focus {
+  outline: none;
+}
+
+
+.background-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(2px);
+  background-color: rgb(0, 0, 0, 0.9);
+  z-index: 1000;
+}
