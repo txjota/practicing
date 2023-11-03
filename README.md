@@ -8,39 +8,44 @@ Para começar com o projeto, siga as etapas abaixo:
 
 1. Clone o repositório do projeto:
 
-   ```bash
+   ``bash
    git clone https://github.com/seu-usuario/the-rick-and-morty.git
 
 
 
 
-1º Navegue até o diretório do projeto:
+## 1º Navegue até o diretório do projeto:
 
     cd the-rick-and-morty
 
 
-2º Instale as dependências necessárias usando o npm:
+## 2º Instale as dependências necessárias usando o npm:
 
     npm install
 
-3º Agora, você pode iniciar o aplicativo:
+## 3º Agora, você pode iniciar o aplicativo:
 
     npm start
 
 Isso iniciará o aplicativo no modo de desenvolvimento. Abra http://localhost:3000 no seu navegador para visualizar e interagir com os cards de personagens.
 
-Tecnologias Utilizadas
-React: A biblioteca JavaScript usada para criar a interface do usuário.
-axios: Uma biblioteca usada para fazer solicitações HTTP para a API do Rick and Morty.
-react-bootstrap: Uma biblioteca que fornece componentes do Bootstrap para o seu aplicativo React.
-react-icons (BiArrowBack): Uma biblioteca que oferece ícones SVG, usada para renderizar o ícone de retorno (back) no modal.
-CSS: Estilização e design do aplicativo são implementados usando CSS.
-Licença
-Este projeto é licenciado sob os termos da Licença MIT. Você pode encontrar uma cópia da Licença MIT na pasta LICENSE deste repositório ou visite https://opensource.org/licenses/MIT para obter mais informações.
+## Tecnologias Utilizadas
 
-Autor
-Jefferson Teixeira
-Contato: otxjota@gmail.com
+- **React**: A biblioteca JavaScript usada para criar a interface do usuário.
+- **axios**: Uma biblioteca usada para fazer solicitações HTTP para a API do Rick and Morty.
+- **react-bootstrap**: Uma biblioteca que fornece componentes do Bootstrap para o seu aplicativo React.
+- **react-icons (BiArrowBack)**: Uma biblioteca que oferece ícones SVG, usada para renderizar o ícone de retorno (back) no modal.
+- **CSS**: Estilização e design do aplicativo são implementados usando CSS.
+
+## Licença
+
+Este projeto é licenciado sob os termos da [Licença MIT](https://opensource.org/licenses/MIT). Você pode encontrar uma cópia da Licença MIT na pasta LICENSE deste repositório.
+
+## Autor
+
+**Jefferson Teixeira**
+- Contato: otxjota@gmail.com
+
 
 
 
